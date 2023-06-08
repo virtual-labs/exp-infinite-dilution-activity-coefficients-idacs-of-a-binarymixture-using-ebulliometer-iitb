@@ -102,22 +102,22 @@ function a1_canvas_mapping() {
     context.scale(1, -1);
 }
 function a1_draw_all_components() {
-    var sq = new Chemistry.Custome_image(dimmer_stat, new Chemistry.Point(600, 200), 59, 59, canvas);
+    var sq = new Chemistry.Custome_image(dimmer_stat, new Chemistry.Point(600, 200), 100, 100, canvas);
     sq.name = "dimmer_stat";
     scene.add(sq);
-    var sq = new Chemistry.Custome_image(heating_tap, new Chemistry.Point(1450, 170), 35, 66, canvas);
+    var sq = new Chemistry.Custome_image(heating_tap, new Chemistry.Point(1450, 170), 115, 198, canvas);
     sq.name = "heating_tap";
     scene.add(sq);
-    var sq = new Chemistry.Custome_image(tank, new Chemistry.Point(1650, 600), 75, 209, canvas);
+    var sq = new Chemistry.Custome_image(tank, new Chemistry.Point(1650, 600), 150, 418, canvas);
     sq.name = "tank";
     scene.add(sq);
-    var sq = new Chemistry.Custome_image(connector, new Chemistry.Point(280, 830), 44, 35, canvas);
+    var sq = new Chemistry.Custome_image(connector, new Chemistry.Point(280, 730), 132, 115, canvas);
     sq.name = "connector";
     scene.add(sq);
-    var sq = new Chemistry.Custome_image(temperature_indicator, new Chemistry.Point(150, 220), 77, 92, canvas);
+    var sq = new Chemistry.Custome_image(temperature_indicator, new Chemistry.Point(150, 220), 192.5, 230, canvas);
     sq.name = "temperature_indicator";
     scene.add(sq);
-    var sq = new Chemistry.Custome_image(diff_ebull, new Chemistry.Point(230, 580), 113, 336, canvas);
+    var sq = new Chemistry.Custome_image(diff_ebull, new Chemistry.Point(730, 580), 169.5, 504, canvas);
     sq.name = "diff_ebull";
     scene.add(sq);
 }
@@ -166,11 +166,11 @@ function load_higlighted_images() {
     ];
     a1_labels = [
         new Chemistry.Text("dimmer_stat", new Chemistry.Point(600, 280), canvas),
-        new Chemistry.Text("heating_tap", new Chemistry.Point(1450, 240), canvas),
-        new Chemistry.Text("N2 Tank", new Chemistry.Point(1650, 680), canvas),
-        new Chemistry.Text("Connector", new Chemistry.Point(280, 900), canvas),
+        new Chemistry.Text("heating_tap", new Chemistry.Point(1450, 280), canvas),
+        new Chemistry.Text("N2 Tank", new Chemistry.Point(1770, 680), canvas),
+        new Chemistry.Text("Connector", new Chemistry.Point(250, 800), canvas),
         new Chemistry.Text("Temperature Indicator", new Chemistry.Point(150, 330), canvas),
-        new Chemistry.Text("diff_ebull", new Chemistry.Point(300, 580), canvas),
+        new Chemistry.Text("diff_ebull", new Chemistry.Point(550, 780), canvas),
     ];
 }
 function a1_random_questions() {
@@ -306,7 +306,7 @@ function a1_change_question() {
         const act2 = document.createElement("input");
         act2.type = "button";
         // act2.onclick=activity3;
-        //document.getElementById("root").appendChild(act2);
+        // document.getElementById("root").appendChild(act2);
         act2.value = "Next";
         act2.className = "btn btn-success";
         act2.style.fontSize = "1.0vw";
