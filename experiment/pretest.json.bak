@@ -1,11 +1,47 @@
 [
     {
-        "question": "Sample Question",
+        "question": "What does the infinite dilution activity coefficient represent?",
         "qid": 1,
-        "option_a": "Option A",
-        "option_b": "Option B",
-        "option_c": "Option C",
-        "option_d": "Option D",
+        "option_a": "The behavior of solutes at high concentrations.",
+        "option_b": "The effect of solvent-solute interactions at infinitesimal concentrations.",
+        "option_c": "The relationship between vapor pressure and temperature.",
+        "option_d": "The solubility limit of a solute in a solvent.",
+        "correct_option": "b"
+    },
+
+    {
+        "question": "When <span styl='display: inline-block;'> $$ \\gamma_i^∞ = 1 $$ </span>, what does it indicate about the solute behavior?",
+        "qid": 2,
+        "option_a": "The solute behaves ideally at infinite dilution.",
+        "option_b": "The solute exhibits strong interactions with the solvent.",
+        "option_c": "The solute is insoluble in the solvent.",
+        "option_d": "The solute causes the solution to become non-ideal.",
+        "correct_option": "a"
+    },
+
+    {
+        "question": "Which equation is often applied to predict the vapor pressure of the solvent using the infinite dilution activity coefficient?",
+        "qid": 3,
+        "option_a": "Antoine Equation",
+        "option_b": "Clausius-Clapeyron Equation",
+        "option_c": "Raoult's Law",
+        "option_d": "vantt Hoff Equation",
+        "correct_option": "c"
+    },
+
+    {
+        "question": "What implication does a $$ \\gamma_i^∞  $$ value greater than one signify?",
+        "qid": 4,
+        "option_a": "Positive deviation from ideal behavior.",
+        "option_b": "Negative deviation from ideal behavior.",
+        "option_c": "Ideal behavior of the solute.",
+        "option_d": "The solute is completely miscible with the solvent.",
         "correct_option": "a"
     }
 ]
+
+
+
+
+
+
