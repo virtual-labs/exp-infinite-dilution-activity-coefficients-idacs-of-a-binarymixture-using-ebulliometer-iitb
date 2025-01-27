@@ -1,12 +1,12 @@
 [
     {
-        "question": "What is the difference between VLE experiment and <span styl='display: inline-block;'> $$ \\gamma_i^{\\infty} $$ </span> experiment?",
+        "question": "What is the difference between VLE experiment and <span style='display: inline-block;'> $$ \\gamma_i^{\\infty} $$ </span> experiment?",
         "qid": 1,
         "option_a": "No difference",
         "option_b": "The quantity of 2 nd compound is very low in VLE",
-        "option_c": "The quantity of 2 nd compound is very low in <span styl='display: inline-block;'>$$ \\gamma_i^{\\infty} $$</span> experiment",
+        "option_c": "The quantity of 2 nd compound is very low in <span style='display: inline-block;'>$$ \\gamma_i^{\\infty} $$</span> experiment",
 
-        "option_d": "Equimolar mixture is needed in <span styl='display: inline-block;'>$$ \\gamma_i^{\\infty} $$</span> experiment",
+        "option_d": "Equimolar mixture is needed in <span style='display: inline-block;'>$$ \\gamma_i^{\\infty} $$</span> experiment",
         "correct_option": "c"
     },
 
