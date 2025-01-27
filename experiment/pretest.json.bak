@@ -10,7 +10,7 @@
     },
 
     {
-        "question": "When <span styl='display: inline-block;'> $$ \\gamma_i^∞ = 1 $$ </span>, what does it indicate about the solute behavior?",
+        "question": "When <span styl='display: inline-block;'> $$ \\gamma_i^{\\infty} = 1 $$ </span>, what does it indicate about the solute behavior?",
         "qid": 2,
         "option_a": "The solute behaves ideally at infinite dilution.",
         "option_b": "The solute exhibits strong interactions with the solvent.",
